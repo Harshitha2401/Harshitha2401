@@ -38,3 +38,7 @@ cursor=connection.cursor()
 username=input("Enter the Username:")
 password=input("Enter the password:")
 check_user(cursor,username,password)
+
+cursor.close()
+connection.close()
+
